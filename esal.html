@@ -26,6 +26,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+
+  <link rel="stylesheet" type="text/css" href="assets/animate/animate.css">
+
   <!-- =======================================================
   * Template Name: Baker - v2.1.0
   * Template URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
@@ -35,6 +38,10 @@
 </head>
 
 <body>
+  <script src="assets/animate/wow.js"></script>
+  <script>
+  new WOW().init();
+  </script>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-transparent">
@@ -62,7 +69,13 @@
 
     </div>
   </header><!-- End Header -->
-
+<style>
+    a:hover {
+    display: inline-block;
+    animation: swing; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+</style>
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
