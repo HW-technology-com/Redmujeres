@@ -316,6 +316,9 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
+.member-img{
+  background-color:transparent !important;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
